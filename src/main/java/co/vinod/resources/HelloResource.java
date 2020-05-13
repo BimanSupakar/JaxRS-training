@@ -20,7 +20,7 @@ public class HelloResource {
 				"\n" + 
 				"<greeting>\n" + 
 				"	<message>Hello, World</message>\n" + 
-				"	<from>Vinod</from>\n" + 
+				"	<from>Biman</from>\n" + 
 				"</greeting>";
 	}
 	
@@ -29,7 +29,7 @@ public class HelloResource {
 	public String greetAsJson() {
 		return "{\n" + 
 				"	\"message\": \"Hello, World\",\n" + 
-				"	\"from\": \"Vinod\"\n" + 
+				"	\"from\": \"Supakar\"\n" + 
 				"}";
 	}
 }
